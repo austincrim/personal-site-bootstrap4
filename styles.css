@@ -1,0 +1,88 @@
+body {
+    font-family: 'Montserrat';
+}
+
+nav {
+    background-color: #6495ed;
+}
+
+nav li {
+    font-size: 1.1rem;
+    padding: 0 20px;
+}
+
+.navbar-brand {
+    font-size: 1.8rem;
+    margin-left: 1%;
+}
+
+.big-heading {
+    font-size: 4.8rem;
+    margin: 3% 0;
+}
+
+.medium-heading {
+    font-size: 3rem;
+    margin: 0 0 3%;
+}
+
+.hover-transition {
+    transition: color .2s;
+}
+
+.profile-img {
+    border-radius: 100%;
+    width: 25%;
+}
+
+.header-subtitle {
+    line-height: 2;
+    margin: 4% 0 2%;
+}
+
+.skill-img {
+    height: 128px;
+    margin-bottom: 15px;
+}
+
+.skill-desc {
+    font-size: 1.2rem;
+}
+
+.skill-heading {
+    font-size: 3.5rem;
+    margin: 0 0 7%;
+}
+
+#header {
+    color: #565656;
+    padding: 3% 15%;
+    text-align: center;
+}
+
+#contact {
+    background-color: #6495ed;
+    color: white;
+    padding: 3% 15%;
+    text-align: center;
+}
+
+#contact i {
+    color: white;
+    margin: 0 2%;
+}
+
+#contact i:hover {
+    color: #565656;
+}
+
+#skills {
+    background-color: #6495ed;
+    color: white;
+    text-align: center;
+    padding: 5% 10%;
+}
+
+#skills h3 {
+    font-weight: 500;
+}

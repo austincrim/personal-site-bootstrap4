@@ -122,6 +122,10 @@ h6 {
   padding: 5% 15%;
 }
 
+.portfolio-thumbnail {
+  width: 25%;
+}
+
 /* Contact  */
 
 #contact {

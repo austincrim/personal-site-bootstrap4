@@ -63,6 +63,28 @@ h6 {
   text-decoration: none;
 }
 
+.dark-mode-btn {
+  background-color: transparent;
+}
+
+.dark-mode {
+  color: white !important;
+}
+
+.dark-mode.white-section {
+  background-color: #565656;
+}
+
+.white-section {
+  transition: background-color .5s;
+  transition: color .5s
+}
+
+.btn:focus, .btn:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
 #header .btn-info {
     background-color: #6495ed;
 }

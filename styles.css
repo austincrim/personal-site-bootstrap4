@@ -65,6 +65,8 @@ h6 {
 
 .dark-mode-btn {
   background-color: transparent;
+  position: fixed;
+  top: 93%;
 }
 
 .dark-mode {
@@ -76,8 +78,7 @@ h6 {
 }
 
 .white-section {
-  transition: background-color .5s;
-  transition: color .5s
+  transition: all .5s;
 }
 
 .btn:focus, .btn:active {

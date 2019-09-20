@@ -92,26 +92,27 @@ h6 {
 }
 
 .white-section {
-  transition: all .5s;
+  transition: all 0.5s;
 }
 
 .dark-mode.colored-section {
   background-color: #3d598e !important;
-  transition: all .5s;
+  transition: all 0.5s;
 }
 
-.btn:focus, .btn:active {
+.btn:focus,
+.btn:active {
   outline: none !important;
   box-shadow: none !important;
 }
 
 #header .btn-info {
-    background-color: #6495ed;
+  background-color: #6495ed;
 }
 
 #header .btn-info:hover {
-    background-color: #4273cb;
-    border-color: #4273cb;
+  background-color: #4273cb;
+  border-color: #4273cb;
 }
 
 #header {
@@ -164,8 +165,26 @@ h6 {
   padding: 5% 15%;
 }
 
-.portfolio-thumbnail {
-  width: 25%;
+.portfolio-link {
+  color: black;
+}
+
+.portfolio-link:hover {
+  color: #acacac;
+  text-decoration: none;
+}
+
+.dark-mode.card-body:hover {
+  color: #acacac !important;
+  text-decoration: none;
+}
+
+.card-header.dark-mode {
+  background-color: #676767;
+}
+
+.card-body.dark-mode {
+  background-color: #787878;
 }
 
 /* Contact  */

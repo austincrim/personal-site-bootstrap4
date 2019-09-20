@@ -1,0 +1,48 @@
+html {
+    color: white;
+}
+
+.header {
+    background-color: #6495ed;
+    color: #efe;
+    text-align: center;
+    padding: 1.5%;
+}
+
+p {
+    padding: 20px;
+}
+
+footer {
+    background-color: #6495ed;
+    color: #efe;
+    font-size: 20px;
+    text-align: center;
+    padding: 2%;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+button:focus {
+    outline: 0;
+}
+
+.calc {
+    background-color: lightgrey;
+    border-radius: 2%;
+    color: black;
+    margin: 5% auto;
+    padding: 2%;
+    width: 30%;
+}
+
+.form-group {
+    text-align: left;
+}
+
+.tiptotal {
+    font-size: 30px;
+    margin-top: 5px;
+    text-align: center;
+}

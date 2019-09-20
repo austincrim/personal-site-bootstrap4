@@ -10,9 +10,7 @@ $(function() {
   });
 
   $(".dark-mode-btn").on("click", function() {
-      $(".dark-mode-btn").toggleClass("dark-mode");
-      $(".white-section").toggleClass("dark-mode");
-
+      $("*").toggleClass("dark-mode");
     }
   );
 });

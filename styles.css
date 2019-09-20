@@ -6,6 +6,10 @@ nav {
   background-color: #6495ed;
 }
 
+nav.dark-mode {
+  background-color: #3d598e;
+}
+
 nav li {
   font-size: 1.1rem;
   padding: 0 20px;
@@ -63,6 +67,16 @@ h6 {
   text-decoration: none;
 }
 
+.dark-mode.download-btn {
+  background-color: #3d598e !important;
+  border-color: #3d598e;
+}
+
+.dark-mode.download-btn:hover {
+  background-color: #2b3e61 !important;
+  border-color: #2b3e61 !important;
+}
+
 .dark-mode-btn {
   background-color: transparent;
   position: fixed;
@@ -70,7 +84,7 @@ h6 {
 }
 
 .dark-mode {
-  color: white !important;
+  color: white;
 }
 
 .dark-mode.white-section {
@@ -78,6 +92,11 @@ h6 {
 }
 
 .white-section {
+  transition: all .5s;
+}
+
+.dark-mode.colored-section {
+  background-color: #3d598e !important;
   transition: all .5s;
 }
 
@@ -97,7 +116,7 @@ h6 {
 
 #header {
   color: #565656;
-  padding: 3% 15%;
+  padding: 1.5% 15%;
   text-align: center;
 }
 
@@ -168,5 +187,5 @@ h6 {
 }
 
 #contact i:hover {
-  color: #565656;
+  color: #acacac;
 }

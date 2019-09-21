@@ -2,13 +2,6 @@ html {
     color: white;
 }
 
-.header {
-    background-color: #6495ed;
-    color: #efe;
-    text-align: center;
-    padding: 1.5%;
-}
-
 p {
     padding: 20px;
 }
@@ -28,13 +21,18 @@ button:focus {
     outline: 0;
 }
 
+.header {
+    background-color: #6495ed;
+    color: #efe;
+    text-align: center;
+    padding: 1.5%;
+}
 .calc {
     background-color: lightgrey;
     border-radius: 2%;
     color: black;
     margin: 5% auto;
     padding: 2%;
-    width: 30%;
 }
 
 .form-group {

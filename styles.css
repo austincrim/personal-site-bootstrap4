@@ -187,6 +187,12 @@ h6 {
   background-color: #787878;
 }
 
+@media (max-width: 1028px) {
+  .card {
+    margin: 3% 0;
+  }
+}
+
 /* Contact  */
 
 #contact {

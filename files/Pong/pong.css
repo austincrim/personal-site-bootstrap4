@@ -1,5 +1,9 @@
 footer {
-    padding: 1% 0;
+    bottom: 0;
+    font-size: 1.1rem;
+    padding-bottom: 50px;
+    position: absolute;
+    width: 100%;
 }
 
 .pong-game {

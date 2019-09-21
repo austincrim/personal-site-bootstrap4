@@ -189,7 +189,7 @@ h6 {
 
 @media (max-width: 1028px) {
   .card {
-    margin: 3% 0;
+    margin: 5% 0;
   }
 }
 
@@ -206,9 +206,15 @@ h6 {
   margin: 0 0 3%;
 }
 
+@media (max-width: 600px) {
+  #contact .section-heading {
+    margin-bottom: 20px;
+  }
+}
+
 #contact i {
   color: white;
-  margin: 0 2%;
+  margin: 0 3%;
 }
 
 #contact i:hover {

@@ -171,6 +171,11 @@ h6 {
   padding: 5% 15%;
 }
 
+.portfolio-card {
+  margin: 3% auto;
+  width: 40%;
+}
+
 .portfolio-link {
   color: black;
 }
@@ -180,7 +185,7 @@ h6 {
   text-decoration: none;
 }
 
-.dark-mode.card-body:hover {
+.card-body.dark-mode:hover {
   color: #acacac !important;
   text-decoration: none;
 }
@@ -193,11 +198,6 @@ h6 {
   background-color: #787878;
 }
 
-@media (max-width: 1028px) {
-  .card {
-    margin: 5% 0;
-  }
-}
 
 /* Contact  */
 

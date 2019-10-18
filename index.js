@@ -1,6 +1,9 @@
 $(function() {
   $(".dark-mode-btn").on("click", function() {
     $("*").toggleClass("dark-mode");
+    $("nav").toggleClass("navbar-dark");
+    $("nav").toggleClass("navbar-light");
+
   });
   
   $(document).on("click", 'a[href^="#"]', function(e) {

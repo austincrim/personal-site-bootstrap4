@@ -176,6 +176,12 @@ h6 {
   width: 40%;
 }
 
+@media(max-width: 760px) {
+  .portfolio-card {
+    width: 80%;
+  }
+}
+
 .portfolio-link {
   color: black;
 }
